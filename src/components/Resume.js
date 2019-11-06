@@ -26,9 +26,6 @@ export default function AlertDialogSlide(props) {
 
   return (
     <Fragment>
-      {/* <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-        Slide in alert dialog
-      </Button> */}
       <Button onClick={handleClickOpen}>
         <DescriptionIcon
           style={props.stylesProp}
@@ -40,7 +37,6 @@ export default function AlertDialogSlide(props) {
         keepMounted
         onClose={handleClose}
         scroll="body"
-        // fullScreen={true}
         fullWidth={true}
         maxWidth="lg"
         aria-labelledby="alert-dialog-slide-title"
@@ -54,6 +50,7 @@ export default function AlertDialogSlide(props) {
               src={resumePDF}
               width="100%"
               height="800"
+              title="myFrame"
               >
               This browser does not support PDFs.
             </iframe>

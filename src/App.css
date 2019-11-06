@@ -161,6 +161,23 @@ height: 25em;
   font-size: 5em;
   text-align: left;
 }
+.contact-content button{
+  background: black;
+  color: white;
+  border: 0px;
+  margin-right: 10px;
+  padding: 1em 3em;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+.contact-content button a{
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  text-decoration: none;
+}
 .amazing-color{
   color: white;
   opacity: 1;
@@ -186,7 +203,7 @@ height: 25em;
   top:2em;
   padding: 1em;
 }
-.footer a{
+.footer-name{
   text-decoration: none;
   color:white;
 }

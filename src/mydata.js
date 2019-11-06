@@ -6,7 +6,7 @@ export default {
         'from Atlanta, Ga'
     ],
     contactEmail: 'diposinubi@gmail.com',
-    abouttext: "Completed a 12-week program designed to immerse creative problem solvers into the world of Full Stack Software Engineering. Built four main projects from the ground up using tools such as JavaScript, MongoDb, Django, React and CSS3 to define user interfaces and created RESTful API's communicating  with databases. As a junior developer, I am motivated by learning new things and figuring out solutions. I try to bring an analytical approach to problem solving and share my ideas about creative solutions to get as much input as possible to not only improve myself, but those around me.",
+    abouttext: "Completed a 12-week program designed to immerse creative problem solvers into the world of Full-Stack Software Engineering. Built four main projects from the ground up using tools such as JavaScript, MongoDb, Django, React and CSS3 to define user interfaces and create RESTful API's communicating  with databases. As a junior developer, I am motivated by learning new things and figuring out solutions. I try to bring an analytical approach to problem solving and share my ideas about creative solutions to get as much input as possible to not only improve myself, but those around me. Click on the links below to find out more about me.",
     aboutImage: "./profilePic.jpeg",
     showAboutImage: true,
     projects: [

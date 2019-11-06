@@ -12,13 +12,18 @@ const github = require('simple-icons/icons/github');
 
 
 const styles = {
-
+    GridItem: {
+        height: '33vh',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+    },
     EmbiggenedIcon: {
         width: '100px',
         height: '100px',
         padding: '5px',
         margin: '10px',
-        
+
     },
     TypoBox: {
         alignItems: 'center',
@@ -26,7 +31,9 @@ const styles = {
         alignSelf: 'start',
         justifyContent: 'center',
     },
-   
+    Icons: {
+        marginLeft: '10px',
+    }
 }
 
 function GithubIcon(props) {
@@ -51,7 +58,7 @@ class About extends Component {
                                 <p>{data.abouttext}</p>
                             </Fade>
                         </div>
-                        {data.ShowAboutImage ? <img src={data.aboutImage} alt='about image' /> : null}
+                        {data.ShowAboutImage ? <img src={data.aboutImage} alt='About' /> : null}
                     </div>
                 </Grid>
                 <Grid item xs={4} sm={12} style={styles.GridItem} alignItems='center'>

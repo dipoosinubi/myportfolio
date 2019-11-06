@@ -4,7 +4,7 @@ import data from '../mydata.js'
 
 class Contact extends Component {
     state = {}
-    
+
     render() {
         return (
             <div>
@@ -19,13 +19,17 @@ class Contact extends Component {
                         </h1>
                         <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                         <ul>
-                            {data.social.map((link,index) => (
-                                <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
+                            {data.social.map((link, index) => (
+                                <a target='_blank' rel="noopener noreferrer" href={link.url}>
+                                    <button key={index}>
+                                        {link.name}
+                                    </button>
+                                </a>
                             ))}
                         </ul>
                     </div>
                 </Fade>
-                 <span className='footer'>Made with ❤ by <a href="https://www.linkedin.com/in/oladipoosinubi/">Oladipo Osinubi</a></span>
+                <span className='footer'>Made with ❤ by <span className="footer-name">Oladipo Osinubi</span></span>
             </div>
         )
     }
