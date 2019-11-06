@@ -16,7 +16,7 @@ export default {
         service: 'E-Commerce',
         imageSrc:"./images/image3.png",
         url:'https://evening-depths-32851.herokuapp.com/',
-        github:''
+        github:'https://github.com/dipoosinubi/Super-Footy'
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ export default {
         service: 'Weather App',
         imageSrc:'./images/image1.png',
         url:'https://adoring-jackson-8fd4b8.netlify.com/',
-        github:''
+        github:'https://github.com/dipoosinubi/Weather-App'
     },
     {
         id: 3,

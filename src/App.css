@@ -3,7 +3,7 @@
 
 body{
   font-size: 16px;
-  background: white;
+  background: rgb(12, 89, 109);
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   z-index: 1;
@@ -22,7 +22,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
+  color: white;
   top:4em;
 }
 .heading-background{
@@ -32,7 +32,7 @@ body{
   left:-0.2em;
   top:-0.5em;
   z-index: -100;
-  color: blue;
+  color: white;
 }
 header{
   display: flex;
@@ -59,7 +59,7 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color: black;
+  color: white;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
@@ -72,7 +72,7 @@ li .link:hover{
   opacity: 1;
 }
 .active{
-  color:black;
+  color:white;
   opacity: 1;
 }
 
@@ -108,11 +108,13 @@ li .link:hover{
 .about-content{
   position: relative;
   left:10em;
+  color: white
 }
 .about-content h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  color: black
 }
 .about-content p{
   font-size: 1.3em;
@@ -145,6 +147,9 @@ li .link:hover{
 width: 35em;  
 height: 25em;
 }
+.project img:hover{
+  box-shadow: 5px 20px 30px 5px rgba(250, 248, 248, 0.5)!important;
+}
 .contact{
   position: relative;
   top:20em;
@@ -157,7 +162,7 @@ height: 25em;
   text-align: left;
 }
 .amazing-color{
-  color: blue;
+  color: white;
   opacity: 1;
 }
 
@@ -183,7 +188,7 @@ height: 25em;
 }
 .footer a{
   text-decoration: none;
-  color:#2c59fb;
+  color:white;
 }
 
 
